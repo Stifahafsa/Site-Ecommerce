@@ -1,0 +1,26 @@
+.productListing {
+  padding: 2rem 0;
+}
+
+.productListing h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.productLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.headerImage {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
